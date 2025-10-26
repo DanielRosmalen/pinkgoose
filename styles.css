@@ -1,0 +1,999 @@
+body {
+    background-color: #243241;
+}
+
+.navbar {                                   /*hoofdstructuur van de navigatiebalk*/
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 300px;
+    color: white;
+}
+
+.pink { 
+    color: #fcc4cc;
+}
+
+.nav-login {                                    /*login button op de juiste plek zetten */
+    margin-right: 415px;
+    display: flex;
+}
+
+.login-button {
+    background-color: #283444;
+    border: none;
+    display: flex;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 30px;
+    letter-spacing: 2px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {                                /*Hoofcontainer van de hero*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.div {                                      /*Tekstkolom binnen de hero*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-right: 100px;
+}
+
+.hero-title {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.e-title {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    width: 300px;
+   
+}
+
+.e-text {
+    display: flex;
+    width: 380px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #243241;
+}
+
+.get-started {
+   border-radius: 25px;
+   background-color: #CEAAFF;
+   padding: 20px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+   color: black;
+}
+
+.e-title2 {
+    font-size: 2.6rem;
+    color: white;
+}
+
+.invest-dao {                                   
+    border-radius: 25px;
+    background-color: #182632;
+    color: #FFAAE5;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.start-dao {
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    color: #FFC24C;
+    text-decoration: none;
+    background-color: #182632;
+}
+
+.serv-dao {
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    color: #D387F7;
+    text-decoration: none;
+    background-color: #182632;
+}
+
+.comun-dao {
+    border-radius: 25px;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    color: #77E6FF;
+    text-decoration: none;
+    background-color: #182632;
+   
+}
+
+.impact-dao {
+    border-radius: 25px;
+    background-color: #182632;
+    color: #23C9DE;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.defi-dao {
+    border-radius: 25px;
+    background-color: #182632;
+    color: #FF9E9E;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.more-dao {
+    border-radius: 25px;
+    background-color: #182632;
+    color: #707F8D;
+    padding: 20px;
+    width: 150px;
+    height: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.containers {                       /*layout*/
+    display: flex;
+    gap: 30px;
+    letter-spacing: 2px;
+}
+
+.gamebox {
+    margin-top: 30px;
+}
+
+.arrow-down {                           /*decoratief*/
+    margin-top: 30px;
+}
+
+.three-stars {                          /*decoratief*/
+    margin-right: 900px;
+    position: absolute;
+    left: 420px;
+    top: 640px;
+}
+
+.title-white {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.title-grey {
+    color: #37424D;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.title-pink {
+    color: #FFB4D3;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.stars1 {
+    position: absolute;
+    right: 600px;
+    top: 1300px;
+}
+
+.stars2 {
+    position: absolute;
+    right: 600px;
+}
+
+.stars4 {
+    position: absolute;
+    left: 600px;
+}
+
+.eth {                                              /*container van eth-pic*/
+    border-radius: 25px;
+    background-color: #182632;
+    color: white;
+    padding: 40px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container2 {                               /*layout*/
+    display: flex;
+    gap: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 500px;
+}
+
+.eth-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    word-spacing: 90px;
+    top: 5px; 
+    right: 15px;
+}
+
+.e-title3 {
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+    position: relative;
+    top: 80px;
+
+}
+
+.human-pics {                                   /*profielfotos*/
+    border-radius: 25px;
+    width: 120px;
+    height: 120px;
+    left: 600px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.newsletter {                                           /*hoodcontainer*/
+  background-color: #2A3744;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 400px;
+  position: relative;
+  left: 690px;
+  top: 220px;
+}
+
+.newsletter h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.newsletter p {
+  color: #9ca3af;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.newsletter-in {                /*layout*/
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.newsletter-in input [type="email"] {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.newsletter-in button {
+    background-color: #c084fc;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.stars2-2 {
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+
+.press {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    width: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 250px;
+}
+
+.turq-block {
+    border-radius: 25px;
+    background-color: #77E6FF;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 270px;
+    left: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.decrypt-logo {
+    position: absolute;
+    right: 220px;
+    top: 15px;
+    width: 100px;
+    height: auto;
+}
+
+.block-text {
+    font-size: 26px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.block-text2 {
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 12px;
+    color: #10151A;
+}
+
+.read-arrow {                               /*lees meer pijlen*/
+    position: absolute;
+    top: 280px;
+    right: 280px;
+    font-size: 26px;
+}
+
+.arrow-float {
+    position: absolute;
+    right: -30px;
+    top: 8px;
+}
+
+.blockworks-logo {
+    position: absolute;
+    right: 230px;
+    top: 15px;
+    width: 100px;
+    height: auto;
+}
+
+.purp-block {
+    border-radius: 25px;
+    background-color: #E2C1F9;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: -70px;
+}
+
+.read-arrow2 {
+    position: absolute;
+    top: 280px;
+    right: 240px;
+    font-size: 26px;
+}
+
+.green-block {
+    border-radius: 25px;
+    background-color: #DBE268;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 1150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: -410px;
+}
+
+.techcrunch-logo {
+    position: absolute;
+    right: 230px;
+    top: 15px;
+    width: 100px;
+    height: auto;
+}
+
+.stars4-2 {
+    position: relative;
+    top: -120px;
+    left: 700px; 
+}
+
+.pomp-block {
+    border-radius: 25px;
+    background-color: #182632;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 450px;
+    top: -180px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.pomp-logo {
+    position: absolute;
+    right: 240px;
+    top: 8px;
+    width: 80px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.unstop-block {
+    border-radius: 25px;
+    background-color: #182632;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: -520px;
+    color: white;
+}
+
+.unstop-logo {
+    position: absolute;
+    right: 240px;
+    top: 8px;
+    width: 80px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.zima-block {
+    border-radius: 25px;
+    background-color: #182632;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 1150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: -860px;
+    color: white;
+}
+
+.zima-logo {
+    position: absolute;
+    right: 250px;
+    top: 8px;
+    width: 80px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.block-text3 {
+    font-size: 26px;
+    position: absolute;
+    top: 60px;
+    left: 8px;
+}
+
+.block-text4 {
+    font-size: 20px;
+    position: absolute;
+    top: 170px;
+    left: 12px;
+    color: white;
+}
+
+.block-text5 {
+    font-size: 20px;
+    position: absolute;
+    top: 195px;
+    left: 12px;
+    color: white;
+}
+
+.podcast {
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    width: 300px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: -200px;
+}
+
+.three-stars2 {
+    position: relative;
+    left: 920px;
+    top: -800px;
+    transform: scale(-1, 1);
+}
+
+.title-white2 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    top: -800px;
+    position: relative;
+}
+
+.title-grey2 {
+    margin-top: 100px;
+    color: #5A6C7E;
+    text-align: center;
+    font-size: 2.6rem;
+    top: -900px;
+    position: relative;
+
+}
+
+.telegram {
+   border-radius: 25px;
+   background-color: #FFC803;
+   padding: 20px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+   color: black;
+   position: relative;
+   left: 730px;
+   top: -900px;
+}
+
+.our-email {
+   border-radius: 25px;
+   background-color: #CEAAFF;
+   padding: 20px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+   color: black;
+   position: relative;
+   left: 930px;
+   top: -1020px;
+}
+
+.telegram-pic {
+    display: flex;
+    justify-content: left;
+    bottom: 20px;
+    position: relative;
+}
+
+.email-pic {
+    display: flex;
+    justify-content: left;
+    bottom: 20px;
+    position: relative;
+}
+
+.tele-name {
+    display: flex;
+    color: #4D3705;
+    justify-content: center;
+    position: relative;
+    top: -945px;
+    right: 100px;
+}
+
+.email-name {
+    display: flex;
+    color: #40354B;
+    justify-content: center;
+    position: relative;
+    top: -1065px;
+    left: 110px;
+}
+
+.page-end {                                             
+   background-color: #121E28;
+   padding: 20px;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   color: black;
+   position: relative;
+   top: -900px;
+   word-spacing: 30px;
+   color: white;
+}
+
+.twitter-logo {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   top: -1025px;
+   left: 1200px;
+}
+
+.telegram-logo {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   top: -1025px;
+   left: 1200px;
+}
+
+.youtube-logo {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   top: -1025px;
+   left: 1200px;
+}
+
+.discord-logo {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   top: -1025px;
+   left: 1200px;
+}
+
+   
+.page-end2 {                                    /*page end omdat de andere niet klopte bij andere paginas*/
+   background-color: #121E28;
+   padding: 20px;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   color: black;
+   position: relative;
+   
+   word-spacing: 30px;
+   color: white;
+}
+
+.twitter-logo2 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.telegram-logo2 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.youtube-logo2 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.discord-logo2 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.page-end3 {                                        /*page end omdat de andere niet klopte bij andere paginas*/
+   background-color: #121E28;
+   padding: 20px;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   color: black;
+   position: relative;
+   
+   word-spacing: 30px;
+   color: white;
+}
+
+.twitter-logo3 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.telegram-logo3 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.youtube-logo3 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.discord-logo3 {
+   padding: 20px;
+   width: 30px;
+   height: 30px;
+   position: relative;
+   bottom: 100px;
+   left: 1200px;
+}
+
+.email-name2 {
+    display: flex;
+    color: #40354B;
+    justify-content: center;
+    position: relative;
+    bottom: 170px;
+    left: 100px;
+}
+
+.title-white3 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    
+    position: relative;
+}
+
+.title-grey3 {
+    margin-top: 100px;
+    color: #5A6C7E;
+    text-align: center;
+    font-size: 2.6rem;
+    
+    position: relative;
+
+}
+
+.telegram2 {
+   border-radius: 25px;
+   background-color: #FFC803;
+   padding: 20px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+   color: black;
+   position: relative;
+   left: 730px;
+   
+}
+
+.our-email2 {
+   border-radius: 25px;
+   background-color: #CEAAFF;
+   padding: 20px;
+   width: 150px;
+   height: 30px;
+   text-align: center;
+   color: black;
+   position: relative;
+   left: 930px;
+   bottom: 120px;
+   
+}
+
+.telegram-pic2 {
+    display: flex;
+    justify-content: left;
+    bottom: 20px;
+    position: relative;
+}
+
+.email-pic2 {
+    display: flex;
+    justify-content: left;
+    bottom: 20px;
+    position: relative;
+}
+
+.tele-name2 {
+    display: flex;
+    color: #4D3705;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+}
+
+.goose-form {                                   /*hoofdcontainer van  contact form*/
+  background: #2A3744;
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.goose-form h2 {
+  margin-bottom: 20px;
+}
+
+.goose-form input,
+.goose-form textarea,
+.goose-form select {
+  width: 100%;
+  background: #3D4C5B;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.goose-form button {
+  width: 100%;
+  background: #d6a5f7;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.goose-form button:hover {
+  background: #b97de3;
+}
+
+
+
+.pink-block {
+    border-radius: 25px;
+    background-color: #FFB4D3;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 270px;
+    left: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.pink-block2 {
+    border-radius: 25px;
+    background-color: #FFB4D3;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -70px;
+    left: 800px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.pink-block3 {
+    border-radius: 25px;
+    background-color: #FFB4D3;
+    padding: 150px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -410px;
+    left: 1150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.john-doe {
+    position: absolute;
+    right: 115px;
+    top: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.jane-doe {
+    position: absolute;
+    right: 115px;
+    top: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.hans-erikson {
+    position: absolute;
+    right: 115px;
+    top: 15px;
+    width: 150px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.hero-text {
+    font-size: 26px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.hero-text2 {
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 12px;
+    color: #10151A;
+}
